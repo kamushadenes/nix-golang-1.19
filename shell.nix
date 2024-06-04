@@ -3,7 +3,7 @@ with pkgs;
 mkShell {
   buildInputs = [
     gnumake
-    go_1_20
+    go_1_19
     gotools
     gopls
     go-outline
